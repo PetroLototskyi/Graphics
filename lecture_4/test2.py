@@ -1,3 +1,4 @@
+
 import graphics as graphics
 from graphics import Circle, GraphWin, Point
 
@@ -18,3 +19,4 @@ rightEye.move(20,0)
 # Wait for user interaction before closing (prevents instant close)
 win.getMouse()  # Click to close
 win.close() 
+

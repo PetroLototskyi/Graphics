@@ -1,7 +1,12 @@
 # import os
 # os.system("Xvfb :99 -screen 0 1024x768x16 &")
 # os.environ["DISPLAY"] = ":99"
+<<<<<<< HEAD
 import graphics as graphics
+=======
+
+import graphics
+>>>>>>> 5b3b51f0e43113f11dbe90e09067c06acc126b1f
 # import lecture_4.graphics as graphics
 # import tkinter as tk
 # from pyvirtualdisplay import Display
