@@ -3,6 +3,8 @@
 from graphics import * 
 # import graphics as graphics
 from graphics import Circle, GraphWin, Point, Text, Rectangle, Polygon, Entry, Oval
+import random
+import time
 
 def main() : 
     win = GraphWin("Archery Target", 500, 500)  # Create a window
