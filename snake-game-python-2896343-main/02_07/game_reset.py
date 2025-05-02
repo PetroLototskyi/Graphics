@@ -5,7 +5,7 @@ import random
 # Define program constants
 WIDTH = 500
 HEIGHT = 500
-DELAY = 100  # Milliseconds
+DELAY = 200  # Milliseconds
 FOOD_SIZE = 10
 
 offsets = {
@@ -83,8 +83,8 @@ def food_collision():
 
 
 def get_random_food_pos():
-    x = random.randint(- WIDTH / 2 + FOOD_SIZE, WIDTH / 2 - FOOD_SIZE)
-    y = random.randint(- HEIGHT / 2 + FOOD_SIZE, HEIGHT / 2 - FOOD_SIZE)
+    x = random.randint(- WIDTH // 2 + FOOD_SIZE, WIDTH // 2 - FOOD_SIZE)
+    y = random.randint(- HEIGHT // 2 + FOOD_SIZE, HEIGHT // 2 - FOOD_SIZE)
     return (x, y)
 
 
